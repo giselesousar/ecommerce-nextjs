@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Ecommerce-NextJS
 
-## Getting Started
+Um projeto de e-commerce construído com Next.js, React e Tailwind CSS. Este projeto oferece uma plataforma de compras com funcionalidades básicas como visualização de produtos, pesquisa, filtros e gerenciamento de carrinho.
 
-First, run the development server:
+## Tecnologias Utilizadas
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Next.js**: Framework React para criação de aplicações web.
+- **React**: Biblioteca para construção de interfaces de usuário.
+- **Tailwind CSS**: Framework de utilitários para design responsivo.
+- **TypeScript**: Superset do JavaScript para desenvolvimento mais robusto.
+- **React Feather**: Biblioteca de ícones para React.
+- **Axios**: Cliente HTTP para fazer requisições.
+- **React Query**: Biblioteca para gerenciamento de estados assíncronos e cache de dados.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Funcionalidades
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Visualização de produtos com detalhes.
+- Pesquisa de produtos.
+- Filtros de categorias e ordenação.
+- Gerenciamento de carrinho de compras.
+- Navegação e redirecionamento entre páginas.
 
-## Learn More
+## Instalação e Execução
 
-To learn more about Next.js, take a look at the following resources:
+### Pré-requisitos
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Certifique-se de ter o Node.js e o npm (ou Yarn) instalados em sua máquina. Você pode baixar e instalar o Node.js a partir de [nodejs.org](https://nodejs.org/).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Passos para Rodar o Projeto
 
-## Deploy on Vercel
+1. **Clone o repositório**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   git clone https://github.com/giselesousar/ecommerce-nextjs.git
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+2. **Navegue até o diretório do projeto**
+
+   ```bash
+   cd ecommerce-nextjs
+3. **Instale as dependências**
+
+   ```bash
+   yarn install
+4. **Execute o projeto**
+   ```bash
+   yarn dev
+
+O projeto estará disponível em http://localhost:3000.
+
+## Scripts Disponíveis
+
+- `npm run dev` ou `yarn dev`: Inicia o servidor de desenvolvimento.
+- `npm run build` ou `yarn build`: Cria uma versão otimizada para produção.
+- `npm run start` ou `yarn start`: Inicia o servidor em modo de produção.
+- `npm run lint` ou `yarn lint`: Executa o linter para verificar problemas no código.
+
+## Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
+
