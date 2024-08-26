@@ -98,7 +98,7 @@ export default function ProductsFilters({
         onClick={handleSortChange}
         className="bg-gray-200 text-gray-700 px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 flex items-center space-x-2"
       >
-        <span>Sort</span>
+        <span>Ordenar</span>
         {sort === null ? null : sort === "asc" ? (
           <ChevronDown size={20} />
         ) : (
